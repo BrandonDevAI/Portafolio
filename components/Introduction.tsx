@@ -31,11 +31,11 @@ function Introduction() {
                             sequence={[
                                 "APLICACIONES WEB",
                                 1000,
+                                "PLATAFORMAS ESCALABLES",
+                                1000,
                                 "PRODUCTOS DIGITALES",
                                 1000,
                                 "EXPERIENCIAS ÚNICAS",
-                                1000,
-                                "SOLUCIONES CON IA",
                                 1000,
                             ]}
                             wrapper="span"
@@ -48,15 +48,11 @@ function Introduction() {
                     <div className="flex flex-col">
 
                         <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
-                            Construyo productos digitales completos combinando
-                            frontend, backend, APIs, bases de datos e
-                            integraciones con IA para convertir ideas en
-                            aplicaciones funcionales y escalables.
+                            Construyo soluciones Full Stack de principio a fin, combinando frontend, backend, APIs, bases de datos e inteligencia artificial para desarrollar productos digitales modernos, funcionales y escalables.
                         </p>
 
                         <span className="mx-auto mb-2 text-lg text-secondary underline underline-offset-1 md:mx-0 md:mb-2">
-                            React · Next.js · TypeScript · Node.js · PostgreSQL ·
-                            APIs REST · IA
+                             React | Next.js | TypeScript | Node.js | NestJS | Python | FastAPI | PostgreSQL | AWS | Docker | CI/CD
                         </span>
 
                     </div>
@@ -72,7 +68,7 @@ function Introduction() {
                         </Link>
 
                         <a
-                            href="/CVV-DEVWEB.pdf"
+                            href="/CVV-DEV-FS.pdf"
                             className="px-3 py-2 my-5 transition-all border-2 cursor-pointer text-md w-fit text-secondary border-secondary rounded-xl hover:shadow-xl hover:shadow-secondary"
                             download
                         >

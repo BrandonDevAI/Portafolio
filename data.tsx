@@ -1,16 +1,16 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Twitter , Github, Crop, Pencil, Computer, Book, Rocket, Speech} from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Twitter , Github, Crop, Pencil, Computer, Book, Rocket, Speech, Linkedin} from "lucide-react";
 import { FaInstagram, FaFacebook , FaTiktok } from "react-icons/fa";
 
 export const socialNetworks = [
     {
         id: 1,
         logo: <Github size={30} strokeWidth={2} />,
-        src: "https://github.com/BrandonDeveloper08",
+        src: "https://github.com/BrandonDevAI",
     },
     {
         id: 2,
-        logo: <Twitter size={30} strokeWidth={2} />,
-        src: "https://x.com/BrandonDevx",
+        logo: <Linkedin size={30} strokeWidth={2} />,
+        src: "https://www.linkedin.com/in/brandon-nu%C3%B1ez-aguirre-b85640399/",
     },
     {
         id: 3,
@@ -61,30 +61,23 @@ export const dataAboutPage = [
     {
         id: 1,
         title: "Desarrollador FullStack",
-        subtitle: "BuiderHome",
-        description: "Desarrollo de una plataforma inmobiliaria con Landing Page y CRM para la gestión de propiedades, clientes y ventas. Implementación de funcionalidades full stack, optimización SEO y rendimiento, seguridad y mantenimiento de la plataforma.",
-        date: "July 2025 ",
+        subtitle: "Builder Home S.A.C.",
+        description: "Desarrollé una plataforma inmobiliaria y un sistema de gestión de clientes y ventas. También implementé automatizaciones comerciales para reducir tareas manuales y mejorar la gestión de prospectos.",
+        date: "Marz 2026",
     },
     {
         id: 2,
         title: "Desarrollador Full Stack",
-        subtitle: "Protecta Security",
-        description: "Desarrollo y evolución de aplicaciones web para digitalizar procesos del sector asegurador, integrando APIs REST, servicios externos y plataformas de pago. Trabajo en frontend, backend, bases de datos, seguridad y optimización de procesos.",
-        date: "May 2024",
+        subtitle: "Developing Solutions",
+        description: "Desarrollé plataformas educativas para cursos de tecnología, integrando inscripciones, gestión de usuarios y seguimiento de cursos para simplificar los procesos administrativos.",
+        date: "Nov 2024",
     },
     {
         id: 3,
-        title: "Desarrolador FullStack",
-        subtitle: "San Marcos Go",
-        description: "Desarrollo de una plataforma educativa para estudiantes que buscan ingresar a la Universidad Nacional Mayor de San Marcos, con banco de preguntas, simulacros en tiempo real y funcionalidades educativas impulsadas por IA.",
-        date: "May 2023",
-    },
-    {
-        id: 4,
-        title: "Desarrollador Web",
-        subtitle: "Frelanceer",
-        description: "Desarrollo de aplicaciones web y soluciones personalizadas para clientes, participando de forma integral en el diseño, desarrollo e implementación de productos digitales. Desarrollo de funcionalidades frontend y backend, APIs, bases de datos e integración de servicios.",
-        date: "Agust 2022",
+        title: "Desarrollador web ",
+        subtitle: "Freelancer",
+        description: "Desarrollé aplicaciones web y soluciones personalizadas para clientes, participando en la creación de interfaces, funcionalidades backend e integraciones entre servicios.",
+        date: "Abril 2022",
     },
 ]
 
@@ -98,15 +91,16 @@ export const dataCounter = [
     },
     {
         id: 1,
-        endCounter: 3,
-        text: "PRODUCTOS Y PROYECTOS DESTACADOS",
+        endCounter: 2,
+        text: "Empresas",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 3,
-        text: "EXPERIENCIAS PROFESIONALES",
+        endCounter: 0,
+        textalt: "FullStack",
+        text: "Area de especialidad",
         lineRight: true,
         lineRightMobile: true,
     },
@@ -152,15 +146,15 @@ export const dataPortfolio = [
         id: 2,
         title: "App Videos IA",
         image: "/viral.jpg",
-        urlGithub: "#!",
-        urlDemo: "https://viralflowy.com/",
+        urlGithub: "https://github.com/BrandonDevAI/ViralFlowy",
+        urlDemo: "https://viral-flowy.vercel.app/",
     },
     {
         id: 3,
-        title: "App Chatbot IA",
-        image: "/chatbotAI.png",
-        urlGithub: "#!",
-        urlDemo: "https://sunny-illumination-production-c2d7.up.railway.app/conversations",
+        title: "Takuora",
+        image: "/takuora.png",
+        urlGithub: "https://github.com/BrandonDevAI/Takuora-lp",
+        urlDemo: "https://takuora.com",
     },
     {
         id: 6,
@@ -180,7 +174,7 @@ export const dataPortfolio = [
         id: 8,
         title: "App para Ligar",
         image: "/image-8.jpg",
-        urlGithub: "#!",
+        urlGithub: "https://github.com/BrandonDevAI/GileAI",
         urlDemo: "https://gileai.vercel.app/",
     }
 ];
